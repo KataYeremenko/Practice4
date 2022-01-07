@@ -162,24 +162,45 @@ body {
     grid-row-gap: 20px; /*простір між рядками*/
 }
 .rectangle{
-    width: 1920px;
-    height: 100px;
+    width: auto;
+    height: auto;
     background: #F7F7F7;
 }
 .logo2{
     display: inline;
     width: 100px;
     height: 100px;
-    margin-left: 200px;
+    padding-left: 359px;
+    padding-right: 938px;
+    text-decoration: none;
 }
-.logo3{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+.iconka1{
+    display: inline;
+    width: 24px;
+    height: 28px;
     position: relative;
-    top: -35px;
-
-    margin-left: 1000px;
-
-
+    top: -36px;
+    text-decoration: none;
+    margin-right: 42px;
+}
+.iconka2{
+    display: inline;
+    width: 21px;
+    height: 24px;
+    position: relative;
+    top: -36px;
+    text-decoration: none;
+    margin-right: 42px;
+}
+.iconka3{
+    display: inline;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: -36px;
+/*    text-decoration: none;*/
+    margin-right: 42px;
+}
+hr{
+    color: #C2C2C2;
 }
